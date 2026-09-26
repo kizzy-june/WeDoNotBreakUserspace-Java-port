@@ -1,14 +1,13 @@
-NOTE THIS IS KINDA DESTRUCTIVE
-It dosent overwrite mbr or smth llike that but loops a py file davirus.py
+# WeDoNotBreakUserspace
 
-Can crash ur pc
+Just run main.py lol
 
-IF u wanna run it on ur main pc without rebooting or signing out set DEV_MODE in davirus.py to True it force crashes the python file after 10s if u see it crashed or smth like that that means it did it job
+## This shouldn't harm your computer, but it may cause lag, especially on low-RAM machines
 
-How it works:
-So theres 2 files main.py and davirus.py
-main.py runs davirus.py pretty much
-and davirus.py is a loop that runs davirus and prints just monika
-so it makes a new terminal window that runs davirus.py ik that is kinda confusing
+It doesn't overwrite MBR or stuff like that but loops a py file, being davirus.py
 
-for now i will not put a exe in releases
+### There is a risk of this software crashing your PC
+
+If you want to try this, but you want an extremely less risk of lag, make sure DEV_MODE is set to True on davirus.py (Set to True by default, change to False for full power mode.)
+
+Binaries of this program will not be published. Only source code, which is still runnable.
