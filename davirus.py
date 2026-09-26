@@ -9,7 +9,7 @@ import platform
 DEV_MODE = True  # Set to True to forcefully kill all cmd/python windows after 10 seconds
 
 def dev_killer():
-    time.sleep(10)
+    time.sleep(3)
     if platform.system() == "Windows":
         os.system("taskkill /F /IM cmd.exe /T")
         os.system("taskkill /F /IM python.exe /T")
@@ -43,4 +43,4 @@ else:
         subprocess.Popen([sys.executable, os.path.abspath(__file__)])
 
 while True:
-    print("just monika")
+    print("WE DO NOT BREAK USERSPACE")
