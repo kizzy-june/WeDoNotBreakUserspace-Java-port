@@ -16,8 +16,6 @@ if platform.system() == "Windows":
     subprocess.Popen([sys.executable, script_path], creationflags=subprocess.CREATE_NEW_CONSOLE)
 else:
     terminals = [
-        ["gnome-terminal", "--", sys.executable, script_path],
-        # If ur my friend and hate gnome well i also dont wanna put this here but i need to ok
         ["konsole", "-e", sys.executable, script_path],
         ["kitty", "-e", sys.executable, script_path],
         ["xfce4-terminal", "-e", f"{sys.executable} {script_path}"],
