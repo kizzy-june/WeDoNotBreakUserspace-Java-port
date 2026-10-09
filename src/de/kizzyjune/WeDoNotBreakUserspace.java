@@ -33,6 +33,7 @@ public final class WeDoNotBreakUserspace {
         final JFrame window = new JFrame("We do not break userspace");
         window.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         // No way out unless you let the JVM terminate itself at the end of execution
+        // Edit: I didn't mean to commit this with this cringy ass comment in here, obviously you can just close the JVM
         window.setSize(1920, 1080 / 2);
         window.setLocationRelativeTo(null);
         window.getContentPane().setBackground(Color.BLACK);
